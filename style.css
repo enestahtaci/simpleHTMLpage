@@ -1,0 +1,128 @@
+body {
+    font-family: 'Madimi One';
+    background-color: #ffffff;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 10px 10px, linear-gradient(#f1ffb1 0.8px, transparent 0.8px) 0 -0.4px, linear-gradient(90deg, #f1ffb1 0.8px, #ffffff 0.8px) -0.4px 0;
+    background-size: 20px 20px, 20px 20px, 10px 10px, 10px 10px;    
+}
+
+.navbar {
+    background: #f1ffb1;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.nav-item {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.login-button {
+    background-color: #00996b;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.3 backgorund-color;
+    text-decoration: none;
+
+}
+
+.login-button:hover {
+    background-color: #005f42;
+}
+
+.c-item {
+    background-color: #fcffec;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 30%;
+    width: 100%;
+    
+}
+
+.c-img {
+    height: 20%;
+    object-fit: cover;
+    filter: brightness(0.9);
+    
+}
+
+.carousel-control-prev{
+    background-color: #c7c4a8;
+    top: 70px;
+    width: 20%;
+}
+
+.carousel-control-next{
+    background-color: #c7c4a8;
+    top: 70px;
+    width: 20%;
+}
+
+
+.lyrics-container{
+    margin-left: 200px;
+}
+
+.song-cover{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.asdafasdas {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+
+.radio-buttonses{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1350px;
+}
+
+.song-info{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+
+.song-artists{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.album-link:hover{
+    background-color: #8c8c8c;
+
+}
+
+.popular-albums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-songs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.turkce-lyrics{
+    margin-left: 100px;
+}
